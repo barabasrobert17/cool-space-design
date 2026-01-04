@@ -21,10 +21,10 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Szolgáltatások</h4>
             <ul className="space-y-2 text-sm text-background/70">
-              <li><a href="#" className="hover:text-background transition-colors">Telepítés</a></li>
-              <li><a href="#" className="hover:text-background transition-colors">Karbantartás</a></li>
-              <li><a href="#" className="hover:text-background transition-colors">Javítás</a></li>
-              <li><a href="#" className="hover:text-background transition-colors">Termékek</a></li>
+              <li><a href="#services" className="hover:text-background transition-colors">Telepítés</a></li>
+              <li><a href="#services" className="hover:text-background transition-colors">Karbantartás</a></li>
+              <li><a href="#services" className="hover:text-background transition-colors">Javítás</a></li>
+              <li><a href="#services" className="hover:text-background transition-colors">Termékek</a></li>
             </ul>
           </div>
 
@@ -33,8 +33,7 @@ const Footer = () => {
             <ul className="space-y-2 text-sm text-background/70">
               <li><a href="#" className="hover:text-background transition-colors">Rólunk</a></li>
               <li><a href="#" className="hover:text-background transition-colors">Csapatunk</a></li>
-              <li><a href="#" className="hover:text-background transition-colors">Karrier</a></li>
-              <li><a href="#" className="hover:text-background transition-colors">Blog</a></li>
+  
             </ul>
           </div>
 
@@ -43,11 +42,13 @@ const Footer = () => {
             <ul className="space-y-3 text-sm text-background/70">
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4" />
-                +36 1 234 5678
+                +36 
               </li>
               <li className="flex items-center gap-2">
-                <Mail className="w-4 h-4" />
-                info@casario.hu
+                <a href="mailto:info@.hu" className="hover:text-background transition-colors flex items-center gap-2">
+                  <Mail className="w-4 h-4" />
+                  info@.hu
+                </a>
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 mt-0.5" />
@@ -58,7 +59,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-background/10 mt-12 pt-8 text-center text-sm text-background/50">
-          <p>© 2024 Casario. Minden jog fenntartva.</p>
+          <p>© 2026 Casario. Minden jog fenntartva.</p>
         </div>
       </div>
     </footer>

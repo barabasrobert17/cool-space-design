@@ -43,9 +43,11 @@ const Hero = () => {
               Időpontfoglalás
               <ArrowRight className="w-5 h-5" />
             </Button>
-            <Button variant="heroOutline" size="xl">
-              Szolgáltatásaink
-            </Button>
+            <a href="#services">
+              <Button variant="heroOutline" size="xl">
+                Szolgáltatásaink
+              </Button>
+            </a>
           </div>
         </div>
       </div>

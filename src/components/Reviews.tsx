@@ -23,7 +23,7 @@ const reviews = [
 
 const Reviews = () => {
   return (
-    <section className="py-24 bg-background">
+    <section id="about" className="py-24 bg-background">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <span className="text-primary font-medium tracking-wide uppercase text-sm">
